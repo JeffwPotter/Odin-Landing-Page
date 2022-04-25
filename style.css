@@ -1,0 +1,17 @@
+* {
+    border: 2px solid red;
+    font-family: Roboto;
+}
+.header, .main-info {
+    background-color: #1f2937;
+    color: white;
+
+}
+
+/* images {
+
+} */
+
+.quote {
+    background-color: #E5E7EB;
+}
