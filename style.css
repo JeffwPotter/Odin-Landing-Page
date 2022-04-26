@@ -5,13 +5,88 @@
 .header, .main-info {
     background-color: #1f2937;
     color: white;
-
+}
+.header {
+    display: inline-block;
+}
+.headerLogo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 100px;
+}
+.nav li {
+    /* display: inline-block; */
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
 }
 
-/* images {
+.main-info {
+    display: flex;
+}
 
-} */
+.mainBody {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bigImage {
+    justify-content: flex-end;
+
+    height: 200px;
+    width: auto;
+}
+.images {
+    display: flex;
+
+}
+.img11, .img12, .img13, .img14 {
+    border: 4px solid blue;
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    flex: 1;
+    
+}
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.calltoaction {
+    color:#E5E7EB;
+    background-color: #3882f6;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+}
+
+.ctaTitle {
+    padding-top: 25px;
+    margin-left: 50px;
+}
+
+.ctaText {
+    margin-left: 50px;
+}
+
+.ctaButton {
+    display: inline;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    display: block;
+    background-color: #1f2937;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin: auto;
+
 }
